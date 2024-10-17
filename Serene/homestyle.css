@@ -1,0 +1,79 @@
+/* Background image for the entire homepage */
+body {
+    margin: 0;
+    padding: 0; 
+    background: url('back1.png') no-repeat center center fixed; /* Update 'background.jpg' with your image path */
+    background-size: cover; /* Cover the entire page */
+    font-family: Arial, sans-serif; /* Optional: Set a default font */
+}
+
+/* Additional styling for navbar and other elements */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #a67; /* Semi-transparent background color */
+    padding: 10px 20px;
+    position: relative;
+    font: bold;
+    
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left ul,
+.navbar-right ul {
+    display: flex;
+    list-style-type: none;
+    gap: 50px; /* Increase the gap between items */
+}
+
+.navbar-left ul li a:hover {
+    color: #ffffff; /* Change text color on hover */
+    text-decoration: underline; /* Optional: add underline on hover */
+}
+
+.navbar-left ul li,
+.navbar-right ul li {
+    display: inline;
+}
+
+.navbar ul li a, 
+.navbar button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size:18px;
+    font-weight:bold;
+}
+
+.navbar button {
+    background-color: #a67990; /* Example button color */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.navbar button a {
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo-img {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+.navbar ul li a:hover {
+    color: #d9b6bc; /* Change text color on hover */
+    text-decoration: underline; /* Optional: add underline on hover */
+}
